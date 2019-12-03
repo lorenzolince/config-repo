@@ -2,7 +2,6 @@ server:
   port: 8080 #the default port used for zuul service
   
 zuul:
-  ignoredServices: '*'
   book:
    api: /api/**
    url: http://local-server:8088
