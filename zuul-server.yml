@@ -2,13 +2,8 @@ server:
   port: 8080 #the default port used for zuul service
   
 zuul:
-  ignoredServices: '*'
-  host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
-    routes:
-      SpringBootJpaH2: # Service to create as sample
-        path: /bootH2/** #path that will be intercepted
-        url: http://local-server:8088 #which url the request will e mapped to
-        stripPrefix: false  #if zuul should replace the "/sample/" segment
-        sensitiveHeaders:
+ SpringBootJpaH2: 
+   path: /bootH2/** 
+   url: http://local-server:8088
+   stripPrefix: false 
+   sensitiveHeaders:
