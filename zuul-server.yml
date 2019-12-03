@@ -9,6 +9,6 @@ zuul:
     routes:
       SpringBootJpaH2: # Service to create as sample
         path: /bootH2/** #path that will be intercepted
-        url: localhost:8088 #which url the request will e mapped to
+        url: http://localhost:8088 #which url the request will e mapped to
         stripPrefix: false  #if zuul should replace the "/sample/" segment
         sensitiveHeaders:
