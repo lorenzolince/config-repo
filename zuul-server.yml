@@ -5,5 +5,3 @@ zuul:
  SpringBootJpaH2: 
    path: /bootH2/** 
    url: http://local-server:8088
-   stripPrefix: false 
-   sensitiveHeaders:
