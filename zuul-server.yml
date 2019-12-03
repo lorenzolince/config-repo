@@ -6,8 +6,3 @@ zuul:
    path: /bootH2/**
    api: /api/**
    url: http://local-server:8088
-   stripPrefix: true
-
-ribbon:
-  eureka:
-    enabled: false
