@@ -9,4 +9,4 @@ zuul:
 
 ribbon:
   eureka:
-    enabled: false
+    enabled: true
