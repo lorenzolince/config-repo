@@ -4,7 +4,7 @@ server:
 zuul:
   ignoredServices: '*'
   book:
-   path: /bootH2/**
+   api: /api/**
    url: http://local-server:8088
    stripPrefix: false
 
