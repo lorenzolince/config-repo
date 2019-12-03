@@ -2,9 +2,10 @@ server:
   port: 8080 #the default port used for zuul service
   
 zuul:
- ignoredServices: '*'
+  ignoredServices: '*'
   book:
    url: http://local-server:8088
+   stripPrefix: false
 
 ribbon:
   eureka:
