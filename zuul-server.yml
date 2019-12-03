@@ -2,11 +2,9 @@ server:
   port: 8080 #the default port used for zuul service
   
 zuul:
- SpringBootJpaH2: 
-  path: /bootH2/** 
+ book:
   url: http://local-server:8088
-  stripPrefix: false
 
 ribbon:
   eureka:
-    enabled: true
+    enabled: false
