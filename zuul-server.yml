@@ -6,8 +6,8 @@ zuul:
   book:
    api: /api/**
    url: http://local-server:8088
-   stripPrefix: false
+   stripPrefix: true
 
 ribbon:
   eureka:
-    enabled: false
+    enabled: true
