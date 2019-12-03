@@ -7,8 +7,8 @@ zuul:
     connect-timeout-millis: 20000
     socket-timeout-millis: 20000
     routes:
-      sample-service: # Service to create as sample
+      SpringBootJpaH2: # Service to create as sample
         path: /bootH2/** #path that will be intercepted
-        url: localhost #which url the request will e mapped to
+        url: localhost:8088 #which url the request will e mapped to
         stripPrefix: false  #if zuul should replace the "/sample/" segment
         sensitiveHeaders:
