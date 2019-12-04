@@ -9,7 +9,7 @@ server:
     
 zuul:
   book:
-   serviceId: book
-   #path: /bootH2/**
-   #api: /api/**
-   #url: http://local-server:8088
+   #serviceId: book
+   path: /bootH2/**
+   api: /api/**
+   url: http://local-server:8088
